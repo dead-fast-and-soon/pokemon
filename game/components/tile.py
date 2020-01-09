@@ -1,10 +1,10 @@
 
-from engine.objects.entity import Entity
-from engine.asset.tileset import TilesetAsset
-from engine.asset.managers.tileset import TilesetManager
+from konkyo.objects.entity import Entity
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.asset.managers.tileset import TilesetManager
 from game.structs.tilemeta import TileMeta
-from engine.objects.component import BatchComponent
-from engine.components.sprite import Sprite
+from konkyo.objects.component import BatchComponent
+from konkyo.components.sprite import Sprite
 
 
 class TileSprite(BatchComponent):

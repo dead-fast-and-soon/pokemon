@@ -4,12 +4,12 @@ A graphics test using multiple boxes in order to test performance.
 
 import math
 
-from engine.components.shapes import Box2D
-from engine.objects.entity import Entity
-from engine.utils import autoargs
-from engine.camera import PixelCamera
-from engine.game import Game
-from engine.scene import Scene
+from konkyo.components.shapes import Box2D
+from konkyo.objects.entity import Entity
+from konkyo.utils import autoargs
+from konkyo.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.scene import Scene
 
 from structs.color import Color
 

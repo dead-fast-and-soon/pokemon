@@ -1,13 +1,13 @@
 
 import math
 
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.objects.entity import Entity
-from engine.components.shapes import Box2D
-from engine.components.sprite import SpriteText
-from engine.camera import PixelCamera
-from structs.vector import Vector
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.objects.entity import Entity
+from konkyo.components.shapes import Box2D
+from konkyo.components.sprite import SpriteText
+from konkyo.camera import PixelCamera
+from konkyo.structs.vector import Vector
 
 
 class ExampleEntity(Entity):

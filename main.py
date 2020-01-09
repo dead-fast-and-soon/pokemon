@@ -1,5 +1,5 @@
 
-from engine.game import Game
+from konkyo.game import Game
 
 from game.entities.block import BlockGrid
 

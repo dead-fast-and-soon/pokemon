@@ -1,8 +1,8 @@
 
 import game.graphics.shaders
 import pyglet
-from engine.graphics import BatchRenderer
-from engine.utils.gl import *
+from konkyo.graphics import BatchRenderer
+from konkyo.utils.gl import *
 import glm
 
 window = pyglet.window.Window(width=800, height=600)

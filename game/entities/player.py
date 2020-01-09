@@ -2,13 +2,13 @@
 import pyglet.window.key as key
 import math
 
-from engine.asset.tileset import TilesetAsset
-from engine.objects.entity import Entity
-from engine.components.sprite import AnimatedSprite
-from structs.vector import Vector
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.objects.entity import Entity
+from konkyo.components.sprite import AnimatedSprite
+from konkyo.structs.vector import Vector
 from game.structs.framedata import FrameData
 
-from engine.utils.math import lerp
+from konkyo.utils.math import lerp
 
 KEY_PRESSED = 1
 KEY_HELD = 2

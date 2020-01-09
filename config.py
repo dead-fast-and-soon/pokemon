@@ -1,4 +1,4 @@
-from structs.vector import Vector
+from konkyo.structs.vector import Vector
 
 # sprite pixel width and height
 SPRITE_SIZE = 8

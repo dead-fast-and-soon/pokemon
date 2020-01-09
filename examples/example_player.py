@@ -5,14 +5,14 @@ import math
 import numpy as np
 import pyglet
 
-from engine.asset.image import ImageAsset
-from engine.asset.tileset import TilesetAsset
-from engine.camera import PixelCamera, ScreenPixelCamera
-from engine.components.shapes import Shape2D
-from engine.components.sprite import Sprite
-from engine.components.text import Text
-from engine.game import Game
-from engine.utils.gl import *
+from konkyo.asset.image import ImageAsset
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.camera import PixelCamera, ScreenPixelCamera
+from konkyo.components.shapes import Shape2D
+from konkyo.components.sprite import Sprite
+from konkyo.components.text import Text
+from konkyo.game import Game
+from konkyo.utils.gl import *
 # from game.graphics.shaders import program
 from game.entities.player import Player
 

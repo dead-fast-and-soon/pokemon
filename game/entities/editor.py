@@ -4,15 +4,15 @@ from dataclasses import dataclass
 
 from pyglet.window import key
 
-from engine.asset.image import ImageAsset
-from engine.asset.managers.tileset import TilesetManager
-from engine.asset.tileset import TilesetAsset
-from engine.components.shapes import Box2D
-from engine.components.sprite import Sprite
-from engine.objects.entity import Entity
+from konkyo.asset.image import ImageAsset
+from konkyo.asset.managers.tileset import TilesetManager
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.components.shapes import Box2D
+from konkyo.components.sprite import Sprite
+from konkyo.objects.entity import Entity
 from game.components.tile import TileSprite, TileSpriteFactory
 from game.structs.tilemeta import TileMeta
-from structs.vector import Vector
+from konkyo.structs.vector import Vector
 
 
 @dataclass

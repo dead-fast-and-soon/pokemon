@@ -2,11 +2,11 @@
 A test game demonstrating a world map editor.
 """
 
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.asset.image import ImageAsset
-from engine.components.sprite import Sprite
-from engine.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.asset.image import ImageAsset
+from konkyo.components.sprite import Sprite
+from konkyo.camera import PixelCamera
 from game.entities.editor import Editor
 
 WIDTH, HEIGHT = 160, 144

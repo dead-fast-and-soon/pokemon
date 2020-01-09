@@ -1,10 +1,10 @@
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.components.sprite import SpriteText
-from engine.camera import ScreenPixelCamera
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.components.sprite import SpriteText
+from konkyo.camera import ScreenPixelCamera
 from game.components.panel import Panel
-from engine.objects.component import BatchComponent
-from structs.vector import Vector
+from konkyo.objects.component import BatchComponent
+from konkyo.structs.vector import Vector
 import pyglet.window.key as key
 
 # load assets

@@ -4,10 +4,10 @@ from typing import List
 
 import pyglet.window.key as key
 
-from engine.objects.entity import Entity
+from konkyo.objects.entity import Entity
 from game.components.elements import Element, MoveElement
 from game.components.panel import Panel
-from structs.vector import Vector
+from konkyo.structs.vector import Vector
 
 
 @dataclass

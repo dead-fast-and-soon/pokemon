@@ -8,18 +8,18 @@ import pyglet.window.key as key
 
 from typing import cast
 
-from engine.components.text import Text
-from engine.components.console import Console
-from engine.components.shapes import Box2D
-from engine.objects.component import BatchComponent
-from engine.objects.entity import Entity
-from engine.camera import PixelCamera
-from engine.game import Game
-from engine.scene import Scene
+from konkyo.components.text import Text
+from konkyo.components.console import Console
+from konkyo.components.shapes import Box2D
+from konkyo.objects.component import BatchComponent
+from konkyo.objects.entity import Entity
+from konkyo.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.scene import Scene
 
 from game.entities.block import Block
 
-from structs.vector import Vector
+from konkyo.structs.vector import Vector
 from structs.color import Color
 
 BLOCK_SIZE = 8  # in pixels
@@ -125,13 +125,13 @@ class Cursor(Entity):
                 self.grid_pos.x = -2
             if self.grid_pos.y < -2:
                 self.grid_pos.y = -2
-                
+
             self.stun_ticks = 4
             if not any(x == self.grid_pos for x in self.selected_coords):
                 self.selected_coords.append(self.grid_pos)
 
             self.update_blocks()
-        
+
         if self.stun_ticks > 0:
             self.stun_ticks -= 1
 

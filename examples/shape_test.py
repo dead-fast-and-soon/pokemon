@@ -1,6 +1,6 @@
 
-from engine.game import Game
-from engine.components.shapes import Box2D, Circle2D
+from konkyo.game import Game
+from konkyo.components.shapes import Box2D, Circle2D
 
 
 game = Game(width=160, height=160)

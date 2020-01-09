@@ -1,8 +1,8 @@
 
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.components.sprite import SpriteText, Sprite
-from engine.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.components.sprite import SpriteText, Sprite
+from konkyo.camera import PixelCamera
 
 # load assets
 tileset = TilesetAsset('assets/font.png', tile_width=8, tile_height=8)

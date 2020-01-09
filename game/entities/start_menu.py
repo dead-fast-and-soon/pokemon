@@ -1,6 +1,6 @@
-from engine.game import Game
-from engine.camera import ScreenPixelCamera
-from engine.objects.entity import Entity
+from konkyo.game import Game
+from konkyo.camera import ScreenPixelCamera
+from konkyo.objects.entity import Entity
 from game.components.panel import Panel
 from game.components.elements import Element, MoveElement
 from game.entities.menu import Menu

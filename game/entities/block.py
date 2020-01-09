@@ -1,7 +1,7 @@
 
-from engine.components.shapes import Box2D
-from engine.objects.component import BatchComponent
-from engine.objects.entity import Entity
+from konkyo.components.shapes import Box2D
+from konkyo.objects.component import BatchComponent
+from konkyo.objects.entity import Entity
 from structs.color import Color
 
 

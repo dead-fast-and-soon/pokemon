@@ -1,10 +1,10 @@
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.components.sprite import Sprite
-from engine.camera import ScreenPixelCamera
-from engine.objects.component import BatchComponent
-from engine.components.shapes import Box2D
-from structs.vector import Vector
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.components.sprite import Sprite
+from konkyo.camera import ScreenPixelCamera
+from konkyo.objects.component import BatchComponent
+from konkyo.components.shapes import Box2D
+from konkyo.structs.vector import Vector
 
 
 # spawn sprites

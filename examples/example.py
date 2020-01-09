@@ -1,8 +1,8 @@
 
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.components.sprite import Sprite
-from engine.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.components.sprite import Sprite
+from konkyo.camera import PixelCamera
 
 # load assets
 tileset = TilesetAsset('assets/frame1.png', tile_width=8, tile_height=8)

@@ -2,9 +2,9 @@
 A test game demonstrating a world map editor.
 """
 
-from engine.game import Game
-from engine.asset.tileset import TilesetAsset
-from engine.camera import PixelCamera
+from konkyo.game import Game
+from konkyo.asset.tileset import TilesetAsset
+from konkyo.camera import PixelCamera
 from game.entities.editor import Editor
 from game.entities.player import Player
 
